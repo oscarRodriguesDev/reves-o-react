@@ -6,9 +6,9 @@ export const ListRender = () => {
   <div>
     {/* Vamos renderizar a lista em jsx abaixo */}
       <ul className='lista' >
-     {lista.map((item)=>{
+     {lista.map((item,index)=>{
         return(
-            <li key={item}>{item}</li>
+            <li key={index}>{item}</li>
         )
      })}
       </ul>
