@@ -2,6 +2,8 @@ import './App.css';
 import { PrimeiroComponente } from './components/firsComponents';
 import { ListRender } from './components/render/renderList';
 import { RenderCondicional } from './components/ifelse/renderCondicional';
+import { RenderProps } from './components/props/props';
+import { Destruturing } from './components/destruturing/propsDestruturing';
 
 function App() {
   return (
@@ -10,6 +12,13 @@ function App() {
       <PrimeiroComponente/>
       <ListRender/>
       <RenderCondicional/>
+      <RenderProps
+       value ={'teste'}
+      />
+<Destruturing
+name ='Oscar'
+age= '39'
+/>
 
     </div>
   );
