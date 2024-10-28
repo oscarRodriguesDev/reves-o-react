@@ -14,6 +14,16 @@
       "id": 3,
       "name": "Boné aba reta",
       "price": 29.9
+    },
+    {
+      "id": 4,
+      "name": "chapeu",
+      "price": "12,00"
+    },
+    {
+      "id": 5,
+      "name": "camisa",
+      "price": "50,00"
     }
   ]
 }
